@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head><link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="tyreupsizer.css"></head>
+<script src="tyreupsizer.js"></script>
+<div id=company style="font-size: 20px"> &nbsp&nbsp&nbsp<font size="5">Tyre</font> <font color="grey">upsize calculator</font><img src="pic.png"></div><hr style="border-top: 1px">
+<center><div id="divone">A precise way to find optimal tyre size to which you can upgrade</div>
+<div id="divtwo"> For a safe upgrade, the tyre size cannot be increased by more than  <font color="black" size="2">three</font> percent of the car’s original total tyre diameter&nbsp<a href="#why">(why?)</a><br>
+check here if you exceed that limit</div></center>
+<div class="flex-container">
+  <div id="divone">
+  	Current:
+  	<form>
+  		<input type="number" id="bwidth" placeholder="width(mm)">&nbsp<extra>/</extra>
+  		<input type="number" id="bsidewall" placeholder="sidewall(mm)">&nbsp<extra>r</extra>
+        <input type="number" id="brim" placeholder="rim size(inch)">
+        <br>
+        
+  </div>
+  <div id="divone">
+New:<br>
+  	
+  		<input type="number" id="awidth" placeholder="width(mm)">&nbsp<extra>/</extra>
+  		<input type="number" id="asidewall" placeholder="sidewall(mm)">&nbsp<extra>r</extra>
+        <input type="number" id="arim" placeholder="rim size(inch)">  	
+
+
+
+  </div> 
+</form>
+</div>
+<div style="padding-left: 136px"><button class="btn" onclick="f1()">calculate difference</button></div>
+<div id="divone" style="text-align: center"><p id="difference1"></p></div>
+<div id="divone" style="text-align: center;padding-top:10px"><p id="difference2"></p></div>
+</html>

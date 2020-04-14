@@ -1,0 +1,80 @@
+#company
+{
+	font-family: 'Noto Sans', sans-serif;
+padding-top:9px;
+padding-bottom: 10px;
+}
+#divone
+{
+	font-family: 'Noto Sans', sans-serif;
+	padding-top:40px;
+}
+#divtwo
+{
+	padding-top:25px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 11px;
+	color: grey;
+	padding-bottom: 25px;
+}
+.flex-container {
+  display: flex;
+justify-content: center;
+  align-items: center;
+}
+.flex-container > div {
+ 
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
+input{
+	width: 20%;
+	 border: 1px solid #f1f1f1;
+  border-radius: 3px;
+  padding: 10px;
+  position: relative;
+}
+extra{
+	font-size: 20px;
+}
+input::placeholder {
+  color: grey;
+  font-size: 10px;
+}
+.btn
+{
+	 border: 1px solid #f1f1f1;
+  border-radius: 3px;
+ background: #1a73e8;
+ padding: 10px 20px;
+ font-size: 20px;
+ cursor: pointer;
+ /*margin: 10px;*/
+ transition: 0.1s;
+ /*position: absolute;*/
+ color: white;
+ /*padding-left: auto;*/
+ font-family: 'Noto Sans', sans-serif;
+}
+.btn:hover{
+	 font-size: 23px;
+}
+p {
+ position: relative;
+  animation: mymove 2s;
+}
+@keyframes mymove {
+  from {
+    left:700px
+  }
+
+  to {
+    left: 0px;
+  }
+}
+img{
+	padding-top: 45px;
+	width: 80%;
+    height: auto;
+}

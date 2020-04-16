@@ -19,3 +19,6 @@ var r1=((bs/100)*bw)+br*12.7;
 	(document.getElementById("difference1").innerHTML="the total diameter variation is  "+dif+"% ,you can not safely upgrade")
 document.getElementById("difference2").innerHTML="If you are travelling at a speed of 100kmph then your actual speed would be "+speed+"kmph"
 }
+function scrollWin() {
+  window.scrollTo(0, 5000);
+}

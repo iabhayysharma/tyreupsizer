@@ -7,10 +7,11 @@ html {
 padding-top:9px;
 padding-bottom: 10px;
 }
-#divone
+.divone
 {
 	font-family: 'Noto Sans', sans-serif;
 	padding-top:38px;
+  font-size: larger;
 }
 #divtwo
 {
@@ -59,6 +60,7 @@ input::placeholder {
  color: white;
  /*padding-left: auto;*/
  font-family: 'Noto Sans', sans-serif;
+ margin-top: 50px;
 }
 .btn:hover{
 	 font-size: 23px;
@@ -71,9 +73,18 @@ p {
    from {top: 200px;}
   to {top: 0px;}
 }
-img{
+.Multiple-Tyre{
 	padding-top: 45px;
 	width: 80%;
     height: auto;
     float: middle;
+}
+.Single-Tyre{
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr{
+  margin-top: 0;
 }

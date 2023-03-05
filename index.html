@@ -1,56 +1,65 @@
 <!DOCTYPE html>
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="tyreupsizer.css"></head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="tyreupsizer.css">
+</head>
 <script src="tyreupsizer.js"></script>
-<div id=company style="font-size: 20px"> &nbsp&nbsp&nbsp<font size="5">Tyre</font> <font color="grey">upsize calculator</font></div><hr style="border-top: 1px">
-<center><div id="divone">A precise way to find optimal tyre size to which you can upgrade</div>
-<div id="divtwo"> For a safe upgrade, the tyre size cannot be increased by more than  <font color="black" size="2">three</font> percent of the car’s original total tyre diameter&nbsp<a href="#why">(why?)</a><br>
-check here if you exceed that limit</div></center>
-<div class="flex-container">
-  <div id="divone">
-  	Current:
-  	<form>
-  		<input type="number" id="bwidth" placeholder="width(mm)">&nbsp<extra>/</extra>
-  		<input type="number" id="bsidewall" placeholder="sidewall(mm)">&nbsp<extra>r</extra>
+<div id=company style="font-size: 20px"> &nbsp&nbsp&nbsp<font size="5">Tyre</font>
+  <font color="grey">upsize calculator</font>
+</div>
+<img class="Single-Tyre" src="what_is_tyre_spec_big.jpg">
+<hr style="border-top: 1px">
+<center>
+  <div class="divone">A precise way to find optimal tyre size to which you can upgrade</div>
+  <div id="divtwo"> For a safe upgrade, the tyre size cannot be increased by more than <font color="black" size="2">
+      three</font> percent of the car’s original total tyre diameter&nbsp<a href="#why">(why?)</a><br>
+    check here if you exceed that limit
+  </div>
+  <div class="flex-container">
+    <div class="divone">
+
+      <form>
+        Current: <input type="number" id="bwidth" placeholder="width(mm)">&nbsp<extra>/</extra>
+        <input type="number" id="bsidewall" placeholder="sidewall(mm)">&nbsp<extra>r</extra>
         <input type="number" id="brim" placeholder="rim size(inch)">
         <br><br>
-        New:<br>
-  	
-  		<input type="number" id="awidth" placeholder="width(mm)">&nbsp<extra>/</extra>
-  		<input type="number" id="asidewall" placeholder="sidewall(mm)">&nbsp<extra>r</extra>
-        <input type="number" id="arim" placeholder="rim size(inch)">  	
-</form><br><a href="#scrolll"><button class="btn" onclick="f1()">calculate difference</button></a>
-<br><center><img src="pic2.png"></center>
-
-  </div>
-
- 
- <!--  <div id="divone">
 
 
+        New:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="number" id="awidth" placeholder="width(mm)">&nbsp<extra>/
+        </extra>
+        <input type="number" id="asidewall" placeholder="sidewall(mm)">&nbsp<extra>r</extra>
+        <input type="number" id="arim" placeholder="rim size(inch)">
+      </form><br><a href="#scrolll"><button class="btn" onclick="f1()">Calculate Difference</button></a>
+      <br>
+      <img class="Multiple-Tyre" src="pic2.png">
 
-
-  </div>  -->
+</div>
+</div>
+<div id="scrolll"></div>
+<div class="divone" style="text-align: center">
+  <p id="difference1"></p>
+  <p id="difference2"></p>
+  <p id="difference3"></p>
+</div>
+<hr style="border-top: 1px">
+<div id="why" class="divone">
+  <p>The reason why it is generally not recommended to increase the tire size by more than three percent of the car's original total tire diameter is because it can affect the accuracy of the speedometer and odometer readings, as well as the overall handling and performance of the vehicle.
+  </p>
+  <p>When you increase the tire size, the circumference of the tire increases, which means the tire will travel a greater distance with each revolution. This can cause the speedometer and odometer to display a lower speed and mileage than the actual speed and mileage of the vehicle. This can also affect the accuracy of other systems that rely on these measurements, such as the anti-lock braking system (ABS) and the electronic stability control (ESC).
+  </p>
+  <p>Furthermore, an increase in tire size can also affect the handling and performance of the vehicle. A larger tire can increase the overall weight of the vehicle, which can affect the acceleration, braking, and cornering abilities. It can also change the suspension and steering geometry, which can affect the ride comfort and stability of the vehicle.
+  </p>
+  <p>
+    Therefore, it is important to choose the right tire size for your vehicle based on the manufacturer's recommendations and specifications. If you do decide to change the tire size, it is recommended to consult with a professional mechanic or tire specialist to ensure that the new tire size is compatible with your vehicle and does not compromise its performance or safety.
+  </p>
 </div>
 
-<!-- <div><center>
-
-</center></div> -->
-
-<div id="divone" style="text-align: center"><p id="difference1"></p>
-	<p id="difference2"></p><p id="difference3"></p>
-
-
-
-<div id="scrolll"></div>
-<br>
-<br><br><br><br><br><br><br><br>
-<div id="divone">made by abhay</div>
-<!-- <div id="divone" style="text-align: center;padding-top:0px"><p id="difference2"></p></div> -->
-</html>
+  <br>
+  <br><br><br><br><br><br><br><br>
+  <div class="divone">made by abhay</div>
+</center>
+  </html>

@@ -1,11 +1,15 @@
 html {
   scroll-behavior: smooth;
 }
+h3{
+  font-family: 'Noto Sans', sans-serif;
+}
 #company
 {
 	font-family: 'Noto Sans', sans-serif;
 padding-top:9px;
 padding-bottom: 10px;
+display: inline-block;
 }
 .divone
 {

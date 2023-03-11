@@ -74,12 +74,7 @@ input::placeholder {
 }
 p {
  position: relative;
-  animation: mymove 2s;
-}
-@keyframes mymove {
-   from {top: 200px;}
-  to {top: 0px;}
-}
+ }
 .Multiple-Tyre{
 	padding-top: 65px;
   width: 100%;
